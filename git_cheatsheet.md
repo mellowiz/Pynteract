@@ -15,8 +15,8 @@ cd <repo_name>
 git init
 git add <file> or git add .
 git commit -m '<put message here>'
-git remote add origin git@github.com:<userid>/<repo_name>.git
-* `git remote add origin https://github.com/<userid>/<repo_name>.git`
+CLI: git remote add origin git@github.com:<userid>/<repo_name>.git
+HTTPS: git remote add origin https://github.com/<userid>/<repo_name>.git
 git push -u origin <branch_name>
 ```
 
