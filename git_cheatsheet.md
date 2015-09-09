@@ -4,6 +4,7 @@
 ###### Initial config
 * `git config --global user.name "<Name> <Surname>"`
 * `git config --global user.email "<userid>@example.com"`
+* `git config --global color.ui true`
 
 ###### Show configuration
 * `git config -l`
@@ -39,7 +40,7 @@ git checkout <existing_branch_name>
 
 #### Update local repository (e.g. after a merge)
 ```
-git pull [origin <branch_name]
+git pull [origin <branch_name>]
 ```
 
 #### Delete Branch
