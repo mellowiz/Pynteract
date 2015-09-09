@@ -50,7 +50,7 @@ git push origin --delete <remote_branch_name>
 
 #### Compare
 ```
-git diff [--stat] --color master origin/master
+git diff [--stat] --color origin/master master
 or
 git diff origin
 ```
