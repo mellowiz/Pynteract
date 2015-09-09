@@ -47,3 +47,10 @@ git pull [origin <branch_name]
 git branch -D <local_branch_name>
 git push origin --delete <remote_branch_name>
 ```
+
+#### Compare
+```
+git diff [--stat] --color master origin/master
+or
+git diff origin
+```
