@@ -47,7 +47,7 @@ while x != ord('4'):
 		execute_cmd("echo useradd -d " + homedir + " -g 1000 -G " + groups + " -m -s " + shell + " " + username)
 	if x == ord('2'):
 		curses.endwin()
-		execute_cmd("echo That was just a joke!!!")
+		execute_cmd("echo 'That was just a joke!!!'")
 	if x == ord('3'):
 		curses.endwin()
 		execute_cmd("df -h")
