@@ -18,7 +18,7 @@ git add <file> or git add .
 git commit -m '<put message here>'
   CLI: git remote add origin git@github.com:<userid>/<repo_name>.git
   HTTPS: git remote add origin https://github.com/<userid>/<repo_name>.git
-git push -u origin <branch_name>
+git push -u origin master
 ```
 
 #### Existing Git Repo
