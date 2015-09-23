@@ -5,6 +5,7 @@
 * `git config --global user.name "<Name> <Surname>"`
 * `git config --global user.email "<userid>@example.com"`
 * `git config --global color.ui true`
+* `git config --global push.default simple`
 
 ###### Show configuration
 * `git config -l`
