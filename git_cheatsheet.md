@@ -5,6 +5,7 @@
 * `git config --global user.name "<Name> <Surname>"`
 * `git config --global user.email "<userid>@example.com"`
 * `git config --global color.ui true`
+* `git config --global push.default simple`
 
 ###### Show configuration
 * `git config -l`
@@ -31,6 +32,7 @@ git push [-u origin <branch_name>]
 ```
 git clone git@github.com:<userid>/<repo_name>.git
 ```
+<p><b>NOTE:</b> must add public key to <i>GitHub > Settings > SSH keys</i></p>
 
 #### Branching
 ```
